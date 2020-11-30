@@ -14,6 +14,7 @@ public class DisplayingAllDataFromAllColumns {
         // print out entire first row of Employee table from above query
         ResultSetMetaData rsmd = rs.getMetaData();
         int columnCount = rsmd.getColumnCount() ;
+        System.out.println(columnCount);
 
         // print out column name in the beginning row , then print first row
 
